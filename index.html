@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Developer Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1 class="name">Tenzin Rangdol</h1>
+			<img src="avatar.jpg" alt="Developer Avatar">
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="about">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>Insert developer's bio here.</p>
+		</div>
+	</section>
+
+	<section id="work">
+		<div class="container">
+			<h2>My Work</h2>
+			<div class="portfolio">
+				<a href="project1.html"><img src="project1.jpg" alt="Project 1"></a>
+				<a href="project2.html"><img src="project2.jpg" alt="Project 2"></a>
+				<a href="project3.html"><img src="project3.jpg" alt="Project 3"></a>
+				<a href="project4.html"><img src="project4.jpg" alt="Project 4"></a>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Send Message</button>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Developer Name. All Rights Reserved.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
